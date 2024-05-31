@@ -56,6 +56,9 @@ header{
     border: 1px solid red;
     border-radius: 20px;
 }
+.cadinho input{
+    
+}
 .imagem{
     height: 90vh;
     width: 90vh;
