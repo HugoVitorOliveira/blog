@@ -1,0 +1,43 @@
+/* 
+snow: #FFFAFB
+tiffany blue: #7DE2D1
+persian green: #339989
+jet: #2B2C28
+night: #131515
+*/
+
+body{
+    color:#FFFAFB;
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.5s;
+    background-color: #131515;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2C28;
+    height: 15vh;
+    padding-left: 4vh;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    color: #FFFAFB;
+    margin: 4vh;
+    font-size: 20px;
+    text-decoration: none;
+}
+#SignUp{
+    color:#339989;
+    border: 2px solid #339989;
+    padding: 10px;
+    border-radius: 30px;
+}
