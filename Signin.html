@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signupStyle.css">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+        <div class = 'links'>
+            <a href="index.html">Home</a>
+        </div>
+    </header>
+    <div class="cad">
+        <img class = "imagem" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG82emxjYnV1MXE5NXA4NmY1cmxjZGVodzBpc216M2IzNTNkeHc4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gH85KtY9fX2yd9eG4F/giphy.gif" alt="Dancing skeleton">
+        <div class="cadinho">
+            <h2>Login</h2>
+            <p>Email:</p>
+            <input type="email" class = 'retro-input' name="Email" id="email" value="your email" onfocus=limparTexto(this)>
+            <p>Password:</p>
+            <input type="password" class = 'retro-input' name="" id="password" value = 'secret shh' onfocus=limparTexto(this)>
+            <input type="button" class= 'retro-button' value="yuppi!!!!" onclick=mudarTela()>
+        </div>
+    </div>
+    <script>
+        function limparTexto(elemento) {
+            document.getElementById(elemento.id).value = "";
+        }
+        function mudarTela(){
+            window.location.href = 'index.html'
+        }
+    </script>
+</body>
+</html>
