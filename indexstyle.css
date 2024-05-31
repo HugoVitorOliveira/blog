@@ -41,3 +41,8 @@ header{
     padding: 10px;
     border-radius: 30px;
 }
+@media(max-width: 1000px){
+    h1{
+        display: none;
+    }
+}

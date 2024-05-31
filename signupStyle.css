@@ -68,6 +68,9 @@ header{
     .imagem {
         display: none;
     }
+    header{
+        justify-content: space-around;
+    }
 }
 
 .retro-button {
