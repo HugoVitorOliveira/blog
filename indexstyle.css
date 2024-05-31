@@ -43,6 +43,12 @@ header{
 }
 @media(max-width: 1000px){
     h1{
-        display: none;
+        /* font-size: 20px; */
+    }
+    .links{
+        flex-direction: column;
+    }
+    .links a{
+        margin: 2vh;
     }
 }
