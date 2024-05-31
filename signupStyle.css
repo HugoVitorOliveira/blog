@@ -43,7 +43,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 84vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .cadinho{
     display: flex;
@@ -53,11 +53,11 @@ header{
     background-color: #2B2C28;
     height: 75vh;
     width: 80vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 20px;
 }
-.cadinho input{
-    
+.cadinho p {
+    font-size: 20px;
 }
 .imagem{
     height: 90vh;
@@ -69,3 +69,35 @@ header{
         display: none;
     }
 }
+
+.retro-button {
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    color: #131515;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 5vh;
+  }
+  
+  .retro-button:hover {
+    background-color: #ccc;
+    color: #131515;
+  }
+  .retro-input {
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    color: #131515;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 8px 10px;
+    outline: none;
+  }
+  
+  .retro-input:focus {
+    border-color: #339989;
+  }

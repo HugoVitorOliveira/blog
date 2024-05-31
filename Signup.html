@@ -20,14 +20,22 @@
         <div class="cadinho">
             <h2>Register</h2>
             <p>Name:</p>
-            <input type="text" name="Name" id="name" value="your most cool name">
+            <input type="text" class = 'retro-input' name="Name" id="name" value="your most cool name" onfocus=limparTexto(this)>
             <p>Email:</p>
-            <input type="email" name="Email" id="email" value="your email">
+            <input type="email" class = 'retro-input' name="Email" id="email" value="your email" onfocus=limparTexto(this)>
             <p>Password:</p>
-            <input type="password" name="" id="password">
-            <input type="button" value="yuppi!!!!">
+            <input type="password" class = 'retro-input' name="" id="password" value = 'secret shh' onfocus=limparTexto(this)>
+            <input type="button" class= 'retro-button' value="yuppi!!!!" onclick=mudarTela()>
         </div>
         <img class = "imagem" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2V6bTlmZ3hnZXo2eHpiNWY5cHRpaHp4NGxwaXRsOGpqMnMzMXp5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vh9I5zHeeAVTgk7iSK/giphy.gif" alt="Dancing skeleton">
     </div>
+    <script>
+        function limparTexto(elemento) {
+            document.getElementById(elemento.id).value = "";
+        }
+        function mudarTela(){
+            window.location.href = 'index.html'
+        }
+    </script>
 </body>
 </html>
