@@ -42,9 +42,6 @@ header{
     border-radius: 30px;
 }
 @media(max-width: 1000px){
-    h1{
-        /* font-size: 20px; */
-    }
     .links{
         flex-direction: column;
     }
